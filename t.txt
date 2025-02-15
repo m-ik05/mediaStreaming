@@ -1,0 +1,1 @@
+cd "c:\infa\vscodepw\sem2-cpp\project\" ; if ($?) { g++ -static-libgcc -static-libstdc++ -ggdb testing.cpp streaming.cpp user.cpp coucon.cpp -o testing } ; if ($?) { .\testing }
