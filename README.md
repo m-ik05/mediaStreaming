@@ -61,3 +61,12 @@ By looking at the memory map, we can see that he has access to Content 1, 2, 3.
 User B is from Country B and is subscribed to platforms 2 and 3.  
 He can only access Content 1, 4. due to limited amount available in Country B, even 
 though technically he should be able to access both B and D
+
+What should be returned after running the program:
+
+Content was never seen yet!  
+Content was never seen yet!  
+Content is unavailable for user!  
+End of tests
+
+The first three messages are not errors, they actually show that the program is working correctly and not letting like or dislike shows that were not watched (lines 113-118 in testing.cpp). The third message comes from test on line 149 in testing.cpp, when the program tries to add content that is not yet available to the user
